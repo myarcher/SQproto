@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_marginBottom="@dimen/dimen_100px"
+    android:layout_gravity="bottom|center_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dimen_320px"
+    android:minHeight="@dimen/dimen_96px"
+    android:layout_height="wrap_content"
+    android:background="@drawable/mydialogs_bg"
+    android:gravity="center"
+    android:orientation="vertical">
+<TextView
+    android:id="@+id/mydialogs_tv"
+    android:textColor="@android:color/white"
+    android:text=""
+    android:textSize="@dimen/dimen_20px"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+</LinearLayout>

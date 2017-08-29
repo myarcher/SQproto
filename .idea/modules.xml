@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SQproto.iml" filepath="$PROJECT_DIR$/SQproto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SQproto-master.iml" filepath="$PROJECT_DIR$/SQproto-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sqprotos/sqprotos.iml" filepath="$PROJECT_DIR$/sqprotos/sqprotos.iml" />
+    </modules>
+  </component>
+</project>
