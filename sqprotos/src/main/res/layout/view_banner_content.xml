@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ad_rl"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.nimi.sqprotos.view.CycleViewPager
+        android:id="@+id/pager_banner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </com.nimi.sqprotos.view.CycleViewPager>
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:padding="8dp"
+        android:gravity="center"
+        android:id="@+id/viewGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+</RelativeLayout>

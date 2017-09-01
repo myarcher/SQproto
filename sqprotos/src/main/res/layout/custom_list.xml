@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nimi.sqprotos.base.BaseListStatusView
+    android:id="@+id/mBaseListStatusView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.nimi.sqprotos.statusview.MultipleStatusView
+        android:id="@+id/status_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:emptyView="@layout/empt_view"
+        app:errorView="@layout/error_view"
+        app:loadingView="@layout/load_view"
+        app:noNetworkView="@layout/network_view"
+        >
+
+        <LinearLayout
+            android:id="@+id/content_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.nimi.sqprotos.xrecyclerview.XRecyclerView
+                android:overScrollMode="never"
+                android:id="@+id/list_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+            <include layout="@layout/empt_view"/>
+        </LinearLayout>
+    </com.nimi.sqprotos.statusview.MultipleStatusView>
+</com.nimi.sqprotos.base.BaseListStatusView>
